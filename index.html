@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <meta charset="UTF-8">
+        
+        <script language="JavaScript" type="text/javascript">
+            /* AJAX code below */
+            
+            /*function sendLogin()
+            {
+                
+                var httpRequest = new XMLHttpRequest();
+                var url = "frontLogin.php";
+                var ucid = document.getElementById("ucid").value;
+                var pass = document.getElementById("pass").value;
+                var data = "ucid="+ucid+"&pass="+pass;
+                httpRequest.open("POST", url, true);
+                
+                httpRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                
+                httpRequest.onreadystatechange = function() 
+                {
+                    
+                    if(httpRequest.readyState == 4 && httpRequest.status == 200)
+                    {
+
+                        var return_data = httpRequest.responseText;
+                        document.getElementById("status").innerHTML = return_data;
+                    }
+                }
+                
+                httpRequest.send(data);     // Send and Execute the request
+                //return false;
+            }*/
+        </script>
+        <style>
+        .smallbox {
+          background-color: white;
+          width: 250px;
+          border: 5px solid black;
+          padding: 25px;
+          margin-top: -260px;
+          height: 100px;
+          margin-left: 2px;
+          }
+        </style>
+    </head>
+    <body>
+        <!-- LOGIN FORM -->
+        <div class="login">
+            <h2>Login Page</h2>
+            <form name="form" method="POST" action="frontLogin.php">
+                <input type="text" name="ucid" id="ucid" placeholder="UCID" required="required">
+                <input type="password" name="pass" id="pass" placeholder="Password" required="required">
+                <button class="button">Login</button>
+                <!--<div id="status"></div>-->
+            </form>
+        </div>
+        <div class="smallbox">
+          <p>Chirayu Patel - Front-End </p>
+          <p>Francis Leonardo - Middle/Back-End </p>
+        </div>
+    </body>
+</html>

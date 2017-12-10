@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sans-Serif';
+    background-image: url("http://media.nj.com/essex_impact/photo/2015/10/06/ex1004collegenjitjpg-5327b5815f7f4864.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.login {
+    width: 410px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px;
+    background: rgba(76, 175, 80, 0.1);
+    
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login input {
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 0;
+    padding: 5px;
+    margin-left: 80px;
+}
+
+.login .button {
+    padding: 5px;
+    width: 260px;
+    margin-left: 80px;
+    height: 40px;
+    color: black;
+    border-radius: 3px;
+    border: 0;
+    font-size: 18px;
+    background: white;
+    cursor: pointer;
+}

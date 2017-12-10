@@ -1,0 +1,173 @@
+/* Side bar*/
+.sidebar{
+    width: 15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-color: #34495e;
+}
+
+.title{
+    background-color: #2ecc71;
+    width: 100%;
+    height: 90px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    
+    height: 90px;
+    line-height: 90px;
+    
+    display: block;
+    margin-right: 15px;
+}
+
+.nav-item {
+    padding: 15px 0px 15px 25px;
+    height: 25px;
+    margin-top: 20px;
+    
+    font-size: 14px;
+    color: #95a5a6;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+p {
+    height: 25px;
+    line-height: 25px;
+}
+
+.nav-item:hover {
+    background-color: #243342;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none!important;
+    border: none!important;
+}
+
+a.logout:hover {
+    color: yellow;
+} 
+
+/* Header */
+
+.header {
+    position: absolute;
+    left: 15%;
+    top: 0;
+    right: 0;
+    height: 90px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -40px;
+    max-height: 85px;
+}
+
+.sub-header {
+    position: absolute;
+    top: 91px;
+    left: 15%;
+    right: 0;
+    border-bottom: 1px solid #d4d8d8;
+    padding: 20px 40px 0 40px;
+}
+
+.sub-headerx {
+    position: absolute;
+    top: 280px;
+    left: 16%;
+    right: 0;
+    padding: 20px 40px 0 40px;
+}
+
+.student-name {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #2c3e50;
+    float: left;
+}
+
+.student-notation {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    
+    zoom: 1;
+    overflow: hidden;
+}
+
+.student-notation::~webkit-scrollbar-corner {
+    display: none;
+}
+
+.student-status {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #7f8c8d;
+    zoom: 1; 
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin-left: 15px;
+}
+
+.student {
+    float: left;
+}
+
+.header-icon {
+    margin: 32px auto;
+    display: block;
+    height: 40px;
+    width: auto;
+}
+
+.header-menu {
+    display: block;
+}
+
+.header-menu ul {
+    margin-top: 30px;
+    float: left;
+    color: #2c3e50;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0px 5px 10px 5px;
+    margin-left: 30px;
+}
+
+.header-menu ul:hover {
+    padding-bottom: 7px; 
+    border-bottom: 3px solid #27ae60;
+}
+
+.cb {
+    clear: both;
+}
